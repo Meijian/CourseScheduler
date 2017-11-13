@@ -1,0 +1,130 @@
+table.calendar {
+    margin-bottom: 0;
+}
+
+table.calendar > thead > tr > th {
+    text-align: center;
+	    border: 1px solid black;
+}
+
+table.calendar > tbody > tr > td {
+    height: 50px;
+}
+
+table.calendar > tbody > tr > td > div {
+    //padding: 8px;
+    overflow: display;
+    display: inline-block;
+    vertical-align: middle;
+    float: left;
+}
+
+.booked
+{
+	
+	background-color: grey;
+	font: 15px Tahoma, Helvetica, Arial, Sans-Serif;
+	color: #222;
+	text-shadow: 0px 2px 3px #555;
+	
+}
+
+table{
+	    border-collapse: collapse;
+}
+
+td, thead{
+	min-height:100px;
+	    border: 1px solid black;
+}
+
+#labels
+{
+	max-height: 56px;
+    overflow-y: scroll;
+    width: 346px;
+    text-align:left;
+    
+    adding:3px;
+    margin: 0;
+    -webkit-border-radius:4px;
+    -moz-border-radius:4px;
+    border-radius:4px;
+    -webkit-box-shadow: 0 3px 0 #ccc, 0 -1px #fff
+    inset;
+    -moz-box-shadow: 0 3px 0 #ccc, 0 -1px #fff inset;
+    box-shadow: 0 3px 0 #ccc, 0 -1px #fff inset;
+    background: black;
+    color:goldenrod;
+    border:none;
+    outline:none;
+    display: inline-block;
+    -webkit-appearance:none;
+    -moz-appearance:none;
+    appearance:none;
+    cursor:pointer;
+    text-align:left;
+    
+    
+    
+}
+.conflict{
+	color:red;
+	background-color:yellow;
+}
+#header {
+    background-color:black;
+    color:goldenrod;
+    text-align:center;
+    padding:1px;
+    font-size: 18px;
+}
+body {background-color:grey;}
+select
+{
+	adding:3px;
+    margin: 0;
+    -webkit-border-radius:4px;
+    -moz-border-radius:4px;
+    border-radius:4px;
+    -webkit-box-shadow: 0 3px 0 #ccc, 0 -1px #fff;
+    width: 250px;
+    inset;
+    width: 250px;
+    -moz-box-shadow: 0 3px 0 #ccc, 0 -1px #fff inset;
+    box-shadow: 0 3px 0 #ccc, 0 -1px #fff inset;
+    background: black;
+    color:goldenrod;
+    border:none;
+    outline:none;
+    display: inline-block;
+    -webkit-appearance:none;
+    -moz-appearance:none;
+    appearance:none;
+    cursor:pointer;
+    	
+}
+ 
+label 
+{
+	position:relative
+}
+
+#one
+{   color:black;
+	background-color:grey;
+	text-align:center;
+	
+	
+}
+#two
+{
+	text-align:left;
+	
+}
+a:-webkit-any-link {
+    color: white;
+    cursor: auto;
+    text-align:right;
+    text-decoration: none; 
+}

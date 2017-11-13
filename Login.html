@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Scheduler</title>
+	<link rel="stylesheet" type="text/css" href="/DynamicScheduler/css/login.css"/>
+	<script src="/DynamicScheduler/javascript/jquery-1.11.3.js"></script>
+	<script src="/DynamicScheduler/javascript/Login.js"></script>
+	<script type="text/javascript" src='javascript/jquery.min.js'></script>
+</head>
+<body>
+<div id=header>
+<p><b>WAKE FOREST DYNAMIC COURSE SCHEDULER</b></p>
+</div>
+<br/>
+<br/>
+<br/>
+<br/>
+<div align="center" id= "login"> 
+<form id="login">
+  <table>
+  	<tr>
+	  	<td>	
+			<label for="username1">Email Id:</label>
+	  	</td>
+	  	<td>
+	  		<input type="text" id="username" name="username" required>  	
+	  	</td>
+  	</tr>
+  	<tr>
+	  	<td>	
+			<label for="password">Password:</label>
+	  	</td>
+	  	<td>
+	  		<input type="password" id="password" name="password" required>	
+	  	</td>
+  	</tr>
+  	<tr>
+	  	<td>	
+	  	</td>
+	  	<td>
+	  		<!-- <input type="submit" name="act" id="Login" value="Login"> -->
+	  		<input type="button" name="act" id="Login" value="Login" onclick="checkLogin()">
+			<input type="button" name="act" id="NewUser" value="NewUser" onclick="newUser()">
+	  	</td>
+  	</tr>
+  </table>
+ </form>       
+</div>
+<br/>
+<div align="center" id= "register"> 
+<header><b>REGISTRATION FORM</b></header>
+<br/>
+<br/>
+<form>
+  <table>
+  	<tr>
+	  	<td>	
+			<label for="firstname">First Name:</label>
+	  	</td>
+	  	<td>
+	  		<input type="text" id="firstname" name="firstname" required>  	
+	  	</td>
+  	</tr>
+  	<tr>
+	  	<td>	
+			<label for="lastname">Last Name:</label>
+	  	</td>
+	  	<td>
+	  		<input type="text" id="lastname" name="lastname" required>	
+	  	</td>
+  	</tr>
+  	<tr>
+	  	<td>	
+			<label for="emailid">Email Id:</label>
+	  	</td>
+	  	<td>
+	  		<input type="text" id="emailid" name="emaiid" required>	
+	  	</td>
+  	</tr>
+  	<tr>
+	  	<td>	
+			<label for="newpassword">Password:</label>
+	  	</td>
+	  	<td>
+	  		<input type="password" id="newpassword" name="newpassword" required>	
+	  	</td>
+  	</tr>
+  	<tr>
+  	<td>
+  		<label for="multiple">Courses Taken:</label>
+  	</td>
+  	<td>
+  	<select id="multiple" multiple = "multiple">
+			<option>--SELECT--</option>
+		</select>
+  	</td>
+  	</tr>
+  	<tr>
+	  	<td>	
+	  	</td>
+	  	<td>
+			<input type="button" value="Register" id="Register" onclick="register()">
+	  	</td>
+  	</tr>
+  </table>
+ </form>       
+</div>
+</body>
+</html>

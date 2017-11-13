@@ -1,0 +1,18 @@
+table {
+    display: table;
+    border-collapse: separate;
+    border-spacing: 2px;
+    border-color: gray;
+}
+#header {
+    background-color:black;
+    color:goldenrod;
+    text-align:center;
+    padding:1px;
+    font-size: 18px;
+}
+body {background-color:grey;}
+select[multiple]{
+        width: 300px;
+        height:310px;
+    }

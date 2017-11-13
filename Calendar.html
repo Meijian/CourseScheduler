@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Scheduler</title>
+	<link rel="stylesheet" type="text/css" href="/DynamicScheduler/css/calendar.css"/>
+	<script src="/DynamicScheduler/javascript/jquery-1.11.3.js"></script>
+	<script src="/DynamicScheduler/javascript/calendar.js"></script>
+	<script type="text/javascript" src='javascript/jquery.min.js'></script>
+</head>
+<body>
+<div id=header>
+<p><b>WAKE FOREST DYNAMIC COURSE SCHEDULER</b></p>
+<p align="left">
+<label for="loggedin" id="loggedin"></label>
+</p>
+</div>
+<div>
+<p align="right">
+<input type="button" name="act" id="logout" value="Logout" onclick="logOut()">
+</p>
+</div>
+<form id=one>
+<br>
+<br>
+<div><b>Courses:</b></div>
+<div>
+<label>
+<select id="courses">
+	<option>--SELECT--</option>
+</select>
+</label>
+</div>
+<br>
+<br>
+</form>
+<form id=two>
+<div id="selected_courses"><b>Selected Courses :</b></div>
+<div id="labels" >
+</div>
+<br>
+<br>
+</form>
+
+<table id="maintable" class="calendar table table-bordered">
+    <thead>
+        <tr>
+            <th>&nbsp;</th>
+            <th width="20%">Monday</th>
+            <th width="20%">Tuesday</th>
+            <th width="20%">Wednesday</th>
+            <th width="20%">Thursday</th>
+            <th width="20%">Friday</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr id="slot8">
+            <td style="min-width:100px;"><b>08:00 am</b></td>
+            <td class="M" rowspan="1"></td>
+            <td class="T" rowspan="1"></td>
+            <td class="W" rowspan="1"></td>
+            <td class="H" rowspan="1"></td>
+            <td class="F" rowspan="1"></td>
+        </tr>
+        <tr id="slot9">
+            <td><b>09:00 am</b></td>
+            <td class="M" rowspan="1"></td>
+            <td class="T" rowspan="1"></td>
+            <td class="W" rowspan="1"></td>
+            <td class="H" rowspan="1"></td>
+            <td class="F" rowspan="1"></td>
+        </tr>
+        <tr id="slot10">
+            <td><b>10:00 am</b></td>
+             <td class="M" rowspan="1"></td>
+            <td class="T" rowspan="1"></td>
+            <td class="W" rowspan="1"></td>
+            <td class="H" rowspan="1"></td>
+            <td class="F" rowspan="1"></td>
+        </tr>
+        <tr id="slot11">
+            <td><b>11:00 am</b></td>
+            <td class="M" rowspan="1"></td>
+            <td class="T" rowspan="1"></td>
+            <td class="W" rowspan="1"></td>
+            <td class="H" rowspan="1"></td>
+            <td class="F" rowspan="1"></td>
+        </tr>
+        <tr id="slot12">
+            <td><b>12:00 pm</b></td>
+            <td class="M" rowspan="1"></td>
+            <td class="T" rowspan="1"></td>
+            <td class="W" rowspan="1"></td>
+            <td class="H" rowspan="1"></td>
+            <td class="F" rowspan="1"></td>
+        </tr>
+        <tr id="slot13">
+            <td><b>1:00 pm</b></td>
+             <td class="M" rowspan="1"></td>
+             <td class="T" rowspan="1"></td>
+            <td class="W" rowspan="1"></td>
+            <td class="H" rowspan="1"></td>
+            <td class="F" rowspan="1"></td>
+        </tr>
+        <tr id="slot14">
+            <td><b>2:00 pm</b></td>
+            <td class="M" rowspan="1"></td>
+            <td class="T" rowspan="1"></td>
+            <td class="W" rowspan="1"></td>
+            <td class="H" rowspan="1"></td>
+            <td class="F" rowspan="1"></td>
+        </tr>
+        <tr id="slot15">
+            <td><b>3:00 pm</b></td>
+             <td class="M" rowspan="1"></td>
+            <td class="T" rowspan="1"></td>
+            <td class="W" rowspan="1"></td>
+            <td class="H" rowspan="1"></td>
+            <td class="F" rowspan="1"></td>
+        </tr>
+        <tr id="slot16">
+            <td><b>4:00 pm</b></td>
+             <td class="M" rowspan="1"></td>
+            <td class="T" rowspan="1"></td>
+            <td class="W" rowspan="1"></td>
+            <td class="H" rowspan="1"></td>
+            <td class="F" rowspan="1"></td>
+        </tr>
+            </tbody>
+</table>
+</body>
+</html>
